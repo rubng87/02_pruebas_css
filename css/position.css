@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px solid #ccc;
+    max-width: 80%;
+    height: 600px;
+    margin: 20px;
+    position: relative;
+}
+
+.position {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
+.static{
+    background: #abeaa4;
+}
+.absolute {
+    background: #ddbb3f;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.relative {
+    background-color: aqua;
+    position: relative;
+    top: 0;
+    left: 100px;
+}
+.fixed {
+    background-color: rgb(220 20 60 / 40%);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.sticky {
+    background-color: #00000044;
+    position: sticky;
+    top: 20px;
+    right: 0;
+
+}
+.otro {
+    width: 2000px;
+    background-color: #abeaa4;
+    height: 200px;
+}
